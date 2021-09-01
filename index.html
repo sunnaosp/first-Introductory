@@ -12,10 +12,10 @@
 
 <body>
     <header>
+        <a href="index.html"><img class="header__logo" src="assets/Logo - Header.png"></a>
         <div class="topnav">
             <a class="topnav__link active" href="index.html">About us</a>
             <a class="topnav__link" href="main.html">Explore</a>
-        </div>
     </header>
     <main>
         <section id="banner">
@@ -23,15 +23,21 @@
         </section>
         <section class="newsletter">
             <span class="newsletter__text">
-                Sign up for our wonder filled newsletter and premium discounts
-                <form>
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname">
-                  </form>
+                Reykjavik city offers endless opportunities for fun adventure, from a vibrant art and music scene to a
+                treasure trove of world-renowned cultural and historical attractions and a great nightlife scene. There
+                is a lot to see and do in the world’s northernmost capital.
             </span>
-
+            <a class="newsletter__link" href="main.html">
+                <h1>Explore Reykjavík</h1>
+            </a>
+            <form class="newsletter__form" action="/action_page.php">
+                <div class="newsletter__container">
+                    <p>Sign up for our wonder filled newsletter and premium discounts</p>
+                    <input class="newsletter__input input__text" type="email" id="email" name="email" placeholder="Email">
+                    <input class="newsletter__input" type="country" id="country" name="country" placeholder="country"><br>
+                    <input class="newsletter__input input__submit" type="submit" value="Sign me up!"></button>
+            </form>
+            </div>
         </section>
     </main>
     <footer>
