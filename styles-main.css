@@ -39,3 +39,7 @@ p {
     size: 24px;
     line-height: 1.5em;
 }
+
+.list-container {
+    display: inline;
+}
