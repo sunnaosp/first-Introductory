@@ -58,3 +58,14 @@ section {
   text-align: center;
   padding-top: 6em;
 }
+
+.sub-paragraph {
+    text-align: center;
+    font-size: 0.8em;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
