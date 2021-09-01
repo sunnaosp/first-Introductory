@@ -1,0 +1,21 @@
+.topnav {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  padding-left: 4em;
+  padding-top: 3em;
+}
+.topnav__link {
+  color: white;
+  text-decoration: none;
+}
+.topnav__link:hover {
+  color: #05b2dc;
+  text-decoration: none;
+}
+.topnav__link.active {
+  font-weight: 800;
+  text-decoration: underline;
+}
