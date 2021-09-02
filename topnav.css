@@ -20,6 +20,27 @@
   text-decoration: underline;
 }
 .header__logo {
-  height: 150px;
+  height: 100px;
   float: right;
+  padding-top: 1.7em;
   }
+
+  /* Adjustment for screen size */
+@media only screen and (max-width: 650px) {
+  .header__logo {
+      height: 50px;
+      float: right;
+      padding-top: 2em;
+  }
+
+  .topnav {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 4em;
+    padding-top: 3em;
+  }
+
+}
